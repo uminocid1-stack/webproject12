@@ -1,0 +1,3462 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 250px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width:15%;
+    float: left;
+    height: 70px;
+    position: relative;
+    right: 600px;
+    top: 25px;
+}
+
+.logo{
+    color: rgb(110, 236, 91);
+    font-size: 2.5vw;
+    font-family: 'Times New Roman';
+    padding-left: 15px;
+}
+
+.logo #home{
+    text-decoration: none;
+    color: rgb(110, 236, 91) ;
+}
+
+.icons{
+    position: relative;
+    right: 450px;
+    width: 60px;
+    float: left;
+    
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    white-space: nowrap;
+    padding-top: 45px;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    text-shadow: 5px 5px 3px rgb(66, 74, 64);
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(232, 245, 219);
+    transition: 0.3s;
+}
+
+ul li a:hover{
+    color: rgb(31, 207, 31);
+}
+
+.content{
+    width: 150px;
+    height: auto;
+    color: white;
+    float: left;
+    margin-left: 30px;
+    margin-top: 200px;
+}
+
+.content .cn{
+    padding-left: 20px;
+    font-size: 6vw;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+}
+
+.content .cn2{
+    padding-left: 20px;
+    font-size: 90px;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+}
+
+.content p{
+    font-size: 30px;
+    float: left;
+    padding-left: 20px;
+    white-space: nowrap;
+}
+
+
+.design{
+    width: 700px;
+    height: auto;
+    margin-left: 580px;
+    margin-top: 170px;
+    background-color: purple;
+    border: 5px solid rgb(129, 122, 122);
+    border-radius: 30px;
+    box-shadow: 5px 3px 5px rgb(190, 214, 187);  
+}
+.menu{
+    display: inline-block;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 40px;
+    
+}
+
+.menu button{
+    width: 200px;
+    height: auto;
+    font-size: 15px;
+    color: black;
+    font-family: roboto;
+    background-color: rgb(110, 236, 91);
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px 10px;
+    transition: 0.4s;
+}
+
+.menu a{
+    display: block;
+    width: 189px;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    padding: 10px 5px;
+    background-color: rgb(217, 221, 216);
+    transition: 0.3s;
+    text-shadow: 1px 1px 3px rgba(37, 24, 24, 0.488);
+}
+
+.menu .topicss{
+    display: none;
+    position: absolute;
+    box-shadow: 8px 8px 5px rgba(57, 59, 57, 0.545);
+    z-index: 2;
+}
+
+.menu button:hover {
+    cursor: pointer;
+    background-color: rgb(49, 243, 23);
+}
+
+.menu .topicss a:hover{
+    background-color: rgb(96, 249, 79);
+}
+
+.menu:hover .topicss{
+    display: block;
+}
+
+.topicss #f1{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.topicss #f2{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.contentpage1{
+    width: 150px;
+    height: auto;
+    padding: 10px 15px;
+    float: left;
+    color: white;
+    margin-left: 40px;
+    margin-top: 200px;
+}
+
+.contentpage1 .cnpage1{
+    font-size: 60px;
+    padding-left: 20px;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+}
+
+.contentpage1 .cn1page1{
+    font-size: 60px;
+    padding-left: 20px;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+}
+
+.contentpage1 .par{
+    font-size: 30px;
+    float: left;
+    padding-left: 20px;
+    white-space: nowrap;
+}
+
+.par-content{
+    width: 550px;
+    height: 500px;
+    padding-left: 20px;
+    float: right;
+    margin-right: 60px;
+    margin-top: 60px;
+    color: rgb(250, 250, 250);
+    background-color:transparent;
+    overflow: auto;
+    border: 2px solid rgb(29, 28, 28);
+    box-shadow: 6px 4px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 20px;
+    white-space: pre-line;
+    padding: 10px 30px;
+    word-spacing: normal;
+    font-family: 'Roboto mono';
+    backdrop-filter: blur(50px);
+    z-index: 1;
+}
+
+.par-container{
+    width: 100%;
+    height: auto;
+}
+
+.par-content::-webkit-scrollbar {
+    width: 0px;
+    height: 0px; 
+    background: transparent; 
+}
+
+.par-container .text{
+    text-shadow: 3px 3px 8px rgb(213, 213, 213);
+}
+
+.par-container .ref{
+    text-decoration: none;
+    color: rgb(138, 131, 253);
+}
+
+.par-container a:visited{
+    color:rgb(103, 52, 233) ;
+}
+
+@media(min-width: 320px) {
+    .main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+   }
+    
+    .icon{
+    position: relative;
+    right: 5vw;
+    top: 6vw;
+    
+ }
+
+    .logo{
+    color: rgb(110, 236, 91);
+    font-size: 7vw;
+    font-family: 'Times New Roman';
+    float: left;
+    }
+
+    .icons{
+    display: inline-block;
+    position: absolute;
+    margin-right: -100vw;
+    margin-top: 7.5vw;
+    }
+
+    .icons button{
+        width: 7vw;
+        height: 2vw;
+        font-size: 3vw;
+        font-family: 'Times New Roman';
+        padding: 0.3vw;
+        background: none;
+        background-color: transparent;
+        border-radius: 0.5vw;
+        font-weight: 300;
+        color: rgb(110, 236, 91);
+        border: none;
+
+    }
+
+    .icons a{
+        width: 13vw;
+        height: auto;
+        display: block;
+        text-decoration: none;
+        background-color: rgb(217, 221, 216);
+        text-align: center;
+        padding: 0.5vw;
+        font-size: 2vw;
+        font-weight: 600;
+    }
+
+    .icons .contact{
+        display: none;
+    }
+
+    .icons .contact a:hover{
+        background-color: rgb(96, 249, 79);
+    }
+
+    .icons:hover .contact{
+        display: block;
+    }
+
+    .icons button:hover{
+        cursor: pointer;
+    }
+
+
+    .contact #A1{
+        border-top-left-radius: 0.5vw;
+        border-top-right-radius: 0.5vw;
+    }
+    
+    .contact #A3{
+        border-bottom-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+    }
+
+    .icons a:hover{
+        background-color: rgb(110, 236, 91);
+    }
+
+    .icons2{
+        position: absolute;
+        margin-left: 45vw;
+        margin-top: 7.5vw;
+        float: right;
+        
+    }
+
+    .icons2 button{
+        width: 13vw;
+        height: auto;
+        background-color: transparent;
+        border: none;
+        color:rgb(110, 236, 91) ;
+        font-size: 3vw;
+        font-family: 'Times New Roman';
+        font-weight: 300;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+
+    .icons2 p{
+        text-decoration: none;
+        display: block;
+        width: 30vw;
+        background-color: aliceblue;
+        text-align: center;
+        padding: 1vw;
+        font-family: 'Times New Roman';
+    }
+
+    .icons2 a{
+        text-decoration: none;
+        font-size: 1.8vw;
+        font-family: 'Times New Roman';
+        color: black;
+    }
+
+    .icons2 .follows{
+        display: none;
+    }
+
+    .icons2:hover .follows{
+        display: block;
+        cursor: pointer;
+    }
+
+    .icons2 p:hover{
+        background-color: rgb(110, 236, 91) ;
+    }
+
+    .follows #A5{
+        border-top-left-radius: 0.5vw;
+        border-top-right-radius: 0.5vw;
+    }
+
+    .follows #A6{
+        border-bottom-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+    }
+
+       
+    .content{
+    float: left;
+    align-items: center;
+    margin-left: 5vw;
+    margin-top: 60vw;
+   }
+
+    .content .cn{
+    font-size: 12vw;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 8vw;
+    }
+
+    .content .cn2{
+    margin-top: 10px;
+    font-size: 11vw;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: -1vw;
+    }
+
+    .content p{
+    font-size: 5vw;
+    float: left;
+    padding-left: 20px;
+    white-space: nowrap;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    }
+
+    .design{
+    width: 250px;
+    display: none;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 100px;
+    border-radius: 30px;
+    box-shadow: 5px 3px 5px rgb(190, 214, 187);
+    }
+
+    .menu{
+    display: inline-block;
+    position: absolute;
+    margin-left: -0.5vw;
+    margin-top: 27vw;
+    justify-items: center;
+    
+}
+
+    .menu button{
+    width: 50vw;
+    height: auto;
+    font-size: 3vw;
+    color: black;
+    font-family: roboto;
+    background-color: rgb(110, 236, 91);
+    font-weight: bold;
+    border-radius: 3vw;
+    padding: 2vw 2vw;
+    }
+
+    .menu a{
+    display: block;
+    width: 45vw;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    padding: 3vw 1.5vw;
+    background-color: rgb(217, 221, 216);
+    transition: 0.3s;
+    text-shadow: 1px 1px 3px rgba(37, 24, 24, 0.488);
+    border: 0.2vw solid black;
+    }
+
+    .menu .topicss{
+    display: none;
+    position: absolute;
+    box-shadow: 8px 8px 5px rgba(57, 59, 57, 0.545);
+    z-index: 2;
+    }
+
+    .menu button:hover {
+    cursor: pointer;
+    background-color: rgb(49, 243, 23);
+   }
+
+    .menu .topicss a:hover{
+    background-color: rgb(96, 249, 79);
+    }
+
+    .menu:hover .topicss{
+    display: block;
+    }
+
+    .topicss #f1{
+    border-top-left-radius: 5vw;
+    border-top-right-radius: 5vw;
+}
+
+    .topicss #f2{
+    border-bottom-left-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+}
+
+.contentpage1{
+    padding: 3vw 4vw;
+    float: left;
+    color: white;
+    margin-left: 5vw;
+    margin-top: 20vw;
+}
+
+.contentpage1 .cnpage1{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 3vw;
+}
+
+.contentpage1 .cn1page1{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 6vw;
+}
+
+.contentpage1 .cn1page2{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 15vw;
+}
+
+.contentpage1 .cnpagetech{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 15vw;
+}
+
+.contentpage1 .cn1pagefuture{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 5vw;
+}
+
+.contentpage1 .par{
+    font-size: 4vw;
+    float: left;
+    margin-left: 9vw;
+    white-space: nowrap;
+}
+
+.contentpage1 .about1{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    margin-left: 23vw;
+    white-space: nowrap;
+}
+
+.par-content{
+    width: 60vw;
+    height: 84vw;
+    padding-left: 8vw;
+    float: right;
+    margin-right: 10vw;
+    margin-top: 3vw;
+    color: rgb(250, 250, 250);
+    background-color:transparent;
+    overflow: auto;
+    border: 2px solid rgb(29, 28, 28);
+    box-shadow: 6px 4px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 3vw;
+    white-space: pre-line;
+    padding: 1vw 8vw;
+    word-spacing: normal;
+    font-family: 'Roboto mono';
+    backdrop-filter: blur(50px);
+    z-index: 1;
+    text-justify: distribute-all-lines;
+}
+
+.par-content::-webkit-scrollbar {
+    background: transparent; 
+}
+
+.par-container .text{
+    text-shadow: 3px 3px 8px rgb(213, 213, 213);
+}
+
+.par-container .ref{
+    text-decoration: none;
+    color: rgb(138, 131, 253);
+}
+
+.par-container a:visited{
+    color:rgb(103, 52, 233) ;
+}
+
+}
+
+@media(min-width: 344px) {
+    .main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+   }
+    
+    .icon{
+    position: relative;
+    right: 5vw;
+    top: 6vw;
+    
+ }
+
+    .logo{
+    color: rgb(110, 236, 91);
+    font-size: 7vw;
+    font-family: 'Times New Roman';
+    float: left;
+    }
+
+    .icons{
+    display: inline-block;
+    position: absolute;
+    margin-right: -92vw;
+    margin-top: 7.5vw;
+    }
+
+    .icons button{
+        width: 7vw;
+        height: 2vw;
+        font-size: 3vw;
+        font-family: 'Times New Roman';
+        padding: 0.3vw;
+        background: none;
+        background-color: transparent;
+        border-radius: 0.5vw;
+        font-weight: 300;
+        color: rgb(110, 236, 91);
+        border: none;
+
+    }
+
+    .icons a{
+        width: 13vw;
+        height: auto;
+        display: block;
+        text-decoration: none;
+        background-color: rgb(217, 221, 216);
+        text-align: center;
+        padding: 0.5vw;
+        font-size: 2vw;
+        font-weight: 600;
+    }
+
+    .icons .contact{
+        display: none;
+    }
+
+    .icons .contact a:hover{
+        background-color: rgb(96, 249, 79);
+    }
+
+    .icons:hover .contact{
+        display: block;
+    }
+
+    .icons button:hover{
+        cursor: pointer;
+    }
+
+
+    .contact #A1{
+        border-top-left-radius: 0.5vw;
+        border-top-right-radius: 0.5vw;
+    }
+    
+    .contact #A3{
+        border-bottom-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+    }
+
+    .icons a:hover{
+        background-color: rgb(110, 236, 91);
+    }
+
+    .icons2{
+        position: absolute;
+        margin-left: 45vw;
+        margin-top: 7.5vw;
+        float: right;
+        
+    }
+
+    .icons2 button{
+        width: 13vw;
+        height: auto;
+        background-color: transparent;
+        border: none;
+        color:rgb(110, 236, 91) ;
+        font-size: 3vw;
+        font-family: 'Times New Roman';
+        font-weight: 300;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+
+    .icons2 p{
+        text-decoration: none;
+        display: block;
+        width: 30vw;
+        background-color: aliceblue;
+        text-align: center;
+        padding: 1vw;
+        font-family: 'Times New Roman';
+    }
+
+    .icons2 a{
+        text-decoration: none;
+        font-size: 1.8vw;
+        font-family: 'Times New Roman';
+        color: black;
+    }
+
+    .icons2 .follows{
+        display: none;
+    }
+
+    .icons2:hover .follows{
+        display: block;
+        cursor: pointer;
+    }
+
+    .icons2 p:hover{
+        background-color: rgb(110, 236, 91) ;
+    }
+
+    .follows #A5{
+        border-top-left-radius: 0.5vw;
+        border-top-right-radius: 0.5vw;
+    }
+
+    .follows #A6{
+        border-bottom-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+    }
+
+       
+    .content{
+    float: left;
+    align-items: center;
+    margin-left: 5vw;
+    margin-top: 60vw;
+   }
+
+    .content .cn{
+    font-size: 12vw;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 8vw;
+    }
+
+    .content .cn2{
+    margin-top: 10px;
+    font-size: 11vw;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: -1vw;
+    }
+
+    .content p{
+    font-size: 5vw;
+    float: left;
+    padding-left: 20px;
+    white-space: nowrap;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    }
+
+    .design{
+    width: 250px;
+    display: none;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 100px;
+    border-radius: 30px;
+    box-shadow: 5px 3px 5px rgb(190, 214, 187);
+    }
+
+    .menu{
+    display: inline-block;
+    position: absolute;
+    margin-left: -0.5vw;
+    margin-top: 27vw;
+    justify-items: center;
+    
+}
+
+    .menu button{
+    width: 50vw;
+    height: auto;
+    font-size: 3vw;
+    color: black;
+    font-family: roboto;
+    background-color: rgb(110, 236, 91);
+    font-weight: bold;
+    border-radius: 3vw;
+    padding: 2vw 2vw;
+    }
+
+    .menu a{
+    display: block;
+    width: 45vw;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    padding: 3vw 1.5vw;
+    background-color: rgb(217, 221, 216);
+    transition: 0.3s;
+    text-shadow: 1px 1px 3px rgba(37, 24, 24, 0.488);
+    border: 0.2vw solid black;
+    }
+
+    .menu .topicss{
+    display: none;
+    position: absolute;
+    box-shadow: 8px 8px 5px rgba(57, 59, 57, 0.545);
+    z-index: 2;
+    }
+
+    .menu button:hover {
+    cursor: pointer;
+    background-color: rgb(49, 243, 23);
+   }
+
+    .menu .topicss a:hover{
+    background-color: rgb(96, 249, 79);
+    }
+
+    .menu:hover .topicss{
+    display: block;
+    }
+
+    .topicss #f1{
+    border-top-left-radius: 5vw;
+    border-top-right-radius: 5vw;
+}
+
+    .topicss #f2{
+    border-bottom-left-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+}
+
+.contentpage1{
+    padding: 3vw 4vw;
+    float: left;
+    color: white;
+    margin-left: 5vw;
+    margin-top: 20vw;
+}
+
+.contentpage1 .cnpage1{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 3vw;
+}
+
+.contentpage1 .cn1page1{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 6vw;
+}
+
+.contentpage1 .cn1page2{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 15vw;
+}
+
+.contentpage1 .cnpagetech{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 15vw;
+}
+
+.contentpage1 .cn1pagefuture{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 5vw;
+}
+
+.contentpage1 .par{
+    font-size: 4vw;
+    float: left;
+    margin-left: 9vw;
+    white-space: nowrap;
+}
+
+.contentpage1 .about1{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    margin-left: 23vw;
+    white-space: nowrap;
+}
+
+.par-content{
+    width: 60vw;
+    height: 84vw;
+    padding-left: 8vw;
+    float: right;
+    margin-right: 10vw;
+    margin-top: 3vw;
+    color: rgb(250, 250, 250);
+    background-color:transparent;
+    overflow: auto;
+    border: 2px solid rgb(29, 28, 28);
+    box-shadow: 6px 4px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 3vw;
+    white-space: pre-line;
+    padding: 1vw 8vw;
+    word-spacing: normal;
+    font-family: 'Roboto mono';
+    backdrop-filter: blur(50px);
+    z-index: 1;
+    text-justify: distribute-all-lines;
+}
+
+.par-content::-webkit-scrollbar {
+    background: transparent; 
+}
+
+.par-container .text{
+    text-shadow: 3px 3px 8px rgb(213, 213, 213);
+}
+
+.par-container .ref{
+    text-decoration: none;
+    color: rgb(138, 131, 253);
+}
+
+.par-container a:visited{
+    color:rgb(103, 52, 233) ;
+}
+
+}
+
+@media(min-width: 360px) and (max-width: 391px)  {
+    .main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+   }
+    
+    .icon{
+    position: relative;
+    right: 12vw;
+    top: 6vw;
+    
+ }
+
+    .logo{
+    color: rgb(110, 236, 91);
+    font-size: 7vw;
+    font-family: 'Times New Roman';
+    float: left;
+    }
+
+    .icons{
+    display: inline-block;
+    position: absolute;
+    margin-right: -77vw;
+    margin-top: 7.5vw;
+    }
+
+    .icons button{
+        width: 7vw;
+        height: 2vw;
+        font-size: 3vw;
+        font-family: 'Times New Roman';
+        padding: 0.3vw;
+        background: none;
+        background-color: transparent;
+        border-radius: 0.5vw;
+        font-weight: 300;
+        color: rgb(110, 236, 91);
+        border: none;
+
+    }
+
+    .icons a{
+        width: 13vw;
+        height: auto;
+        display: block;
+        text-decoration: none;
+        background-color: rgb(217, 221, 216);
+        text-align: center;
+        padding: 0.5vw;
+        font-size: 2vw;
+        font-weight: 600;
+    }
+
+    .icons .contact{
+        display: none;
+    }
+
+    .icons .contact a:hover{
+        background-color: rgb(96, 249, 79);
+    }
+
+    .icons:hover .contact{
+        display: block;
+    }
+
+    .icons button:hover{
+        cursor: pointer;
+    }
+
+
+    .contact #A1{
+        border-top-left-radius: 0.5vw;
+        border-top-right-radius: 0.5vw;
+    }
+    
+    .contact #A3{
+        border-bottom-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+    }
+
+    .icons a:hover{
+        background-color: rgb(110, 236, 91);
+    }
+
+    .icons2{
+        position: absolute;
+        margin-left: 40vw;
+        margin-top: 7.5vw;
+        float: right;
+        
+    }
+
+    .icons2 button{
+        width: 13vw;
+        height: auto;
+        background-color: transparent;
+        border: none;
+        color:rgb(110, 236, 91) ;
+        font-size: 3vw;
+        font-family: 'Times New Roman';
+        font-weight: 300;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+
+    .icons2 p{
+        text-decoration: none;
+        display: block;
+        width: 30vw;
+        background-color: aliceblue;
+        text-align: center;
+        padding: 1vw;
+        font-family: 'Times New Roman';
+    }
+
+    .icons2 a{
+        text-decoration: none;
+        font-size: 1.8vw;
+        font-family: 'Times New Roman';
+        color: black;
+    }
+
+    .icons2 .follows{
+        display: none;
+    }
+
+    .icons2:hover .follows{
+        display: block;
+        cursor: pointer;
+    }
+
+    .icons2 p:hover{
+        background-color: rgb(110, 236, 91) ;
+    }
+
+    .follows #A5{
+        border-top-left-radius: 0.5vw;
+        border-top-right-radius: 0.5vw;
+    }
+
+    .follows #A6{
+        border-bottom-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+    }
+
+       
+    .content{
+    float: left;
+    align-items: center;
+    margin-left: 5vw;
+    margin-top: 60vw;
+   }
+
+    .content .cn{
+    font-size: 12vw;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 8vw;
+    }
+
+    .content .cn2{
+    margin-top: 10px;
+    font-size: 11vw;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: -1vw;
+    }
+
+    .content p{
+    font-size: 5vw;
+    float: left;
+    padding-left: 20px;
+    white-space: nowrap;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    }
+
+    .design{
+    width: 250px;
+    display: none;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 100px;
+    border-radius: 30px;
+    box-shadow: 5px 3px 5px rgb(190, 214, 187);
+    }
+
+    .menu{
+    display: inline-block;
+    position: absolute;
+    margin-left: -0.5vw;
+    margin-top: 27vw;
+    justify-items: center;
+    
+}
+
+    .menu button{
+    width: 50vw;
+    height: auto;
+    font-size: 3vw;
+    color: black;
+    font-family: roboto;
+    background-color: rgb(110, 236, 91);
+    font-weight: bold;
+    border-radius: 3vw;
+    padding: 2vw 2vw;
+    }
+
+    .menu a{
+    display: block;
+    width: 45vw;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    padding: 3vw 1.5vw;
+    background-color: rgb(217, 221, 216);
+    transition: 0.3s;
+    text-shadow: 1px 1px 3px rgba(37, 24, 24, 0.488);
+    border: 0.2vw solid black;
+    }
+
+    .menu .topicss{
+    display: none;
+    position: absolute;
+    box-shadow: 8px 8px 5px rgba(57, 59, 57, 0.545);
+    z-index: 2;
+    }
+
+    .menu button:hover {
+    cursor: pointer;
+    background-color: rgb(49, 243, 23);
+   }
+
+    .menu .topicss a:hover{
+    background-color: rgb(96, 249, 79);
+    }
+
+    .menu:hover .topicss{
+    display: block;
+    }
+
+    .topicss #f1{
+    border-top-left-radius: 5vw;
+    border-top-right-radius: 5vw;
+}
+
+    .topicss #f2{
+    border-bottom-left-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+}
+
+.contentpage1{
+    padding: 3vw 4vw;
+    float: left;
+    color: white;
+    margin-left: 5vw;
+    margin-top: 20vw;
+}
+
+.contentpage1 .cnpage1{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 3vw;
+}
+
+.contentpage1 .cn1page1{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 6vw;
+}
+
+.contentpage1 .cn1page2{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 15vw;
+}
+
+.contentpage1 .cnpagetech{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 15vw;
+}
+
+.contentpage1 .cn1pagefuture{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 5vw;
+}
+
+.contentpage1 .par{
+    font-size: 4vw;
+    float: left;
+    margin-left: 9vw;
+    white-space: nowrap;
+}
+
+.contentpage1 .about1{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    margin-left: 23vw;
+    white-space: nowrap;
+}
+
+.par-content{
+    width: 60vw;
+    height: 84vw;
+    padding-left: 8vw;
+    float: right;
+    margin-right: 10vw;
+    margin-top: 3vw;
+    color: rgb(250, 250, 250);
+    background-color:transparent;
+    overflow: auto;
+    border: 2px solid rgb(29, 28, 28);
+    box-shadow: 6px 4px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 3vw;
+    white-space: pre-line;
+    padding: 1vw 8vw;
+    word-spacing: normal;
+    font-family: 'Roboto mono';
+    backdrop-filter: blur(50px);
+    z-index: 1;
+    text-justify: distribute-all-lines;
+}
+
+.par-content::-webkit-scrollbar {
+    background: transparent; 
+}
+
+.par-container .text{
+    text-shadow: 3px 3px 8px rgb(213, 213, 213);
+}
+
+.par-container .ref{
+    text-decoration: none;
+    color: rgb(138, 131, 253);
+}
+
+.par-container a:visited{
+    color:rgb(103, 52, 233) ;
+}
+
+}
+
+@media(min-width: 411px) and (max-width: 424px){
+    .main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+   }
+    
+    .icon{
+    position: relative;
+    right: 12vw;
+    top: 6vw;
+    
+ }
+
+    .logo{
+    color: rgb(110, 236, 91);
+    font-size: 7vw;
+    font-family: 'Times New Roman';
+    float: left;
+    }
+
+    .icons{
+    display: inline-block;
+    position: absolute;
+    margin-right: -70vw;
+    margin-top: 7.5vw;
+    }
+
+    .icons button{
+        width: 7vw;
+        height: 2vw;
+        font-size: 3vw;
+        font-family: 'Times New Roman';
+        padding: 0.3vw;
+        background: none;
+        background-color: transparent;
+        border-radius: 0.5vw;
+        font-weight: 300;
+        color: rgb(110, 236, 91);
+        border: none;
+
+    }
+
+    .icons a{
+        width: 13vw;
+        height: auto;
+        display: block;
+        text-decoration: none;
+        background-color: rgb(217, 221, 216);
+        text-align: center;
+        padding: 0.5vw;
+        font-size: 2vw;
+        font-weight: 600;
+    }
+
+    .icons .contact{
+        display: none;
+    }
+
+    .icons .contact a:hover{
+        background-color: rgb(96, 249, 79);
+    }
+
+    .icons:hover .contact{
+        display: block;
+    }
+
+    .icons button:hover{
+        cursor: pointer;
+    }
+
+
+    .contact #A1{
+        border-top-left-radius: 0.5vw;
+        border-top-right-radius: 0.5vw;
+    }
+    
+    .contact #A3{
+        border-bottom-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+    }
+
+    .icons a:hover{
+        background-color: rgb(110, 236, 91);
+    }
+
+    .icons2{
+        position: absolute;
+        margin-left: 40vw;
+        margin-top: 7.5vw;
+        float: right;
+        
+    }
+
+    .icons2 button{
+        width: 13vw;
+        height: auto;
+        background-color: transparent;
+        border: none;
+        color:rgb(110, 236, 91) ;
+        font-size: 3vw;
+        font-family: 'Times New Roman';
+        font-weight: 300;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+
+    .icons2 p{
+        text-decoration: none;
+        display: block;
+        width: 30vw;
+        background-color: aliceblue;
+        text-align: center;
+        padding: 1vw;
+        font-family: 'Times New Roman';
+    }
+
+    .icons2 a{
+        text-decoration: none;
+        font-size: 1.8vw;
+        font-family: 'Times New Roman';
+        color: black;
+    }
+
+    .icons2 .follows{
+        display: none;
+    }
+
+    .icons2:hover .follows{
+        display: block;
+        cursor: pointer;
+    }
+
+    .icons2 p:hover{
+        background-color: rgb(110, 236, 91) ;
+    }
+
+    .follows #A5{
+        border-top-left-radius: 0.5vw;
+        border-top-right-radius: 0.5vw;
+    }
+
+    .follows #A6{
+        border-bottom-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+    }
+
+       
+    .content{
+    float: left;
+    align-items: center;
+    margin-left: 5vw;
+    margin-top: 60vw;
+   }
+
+    .content .cn{
+    font-size: 12vw;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 8vw;
+    }
+
+    .content .cn2{
+    margin-top: 10px;
+    font-size: 11vw;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: -1vw;
+    }
+
+    .content p{
+    font-size: 5vw;
+    float: left;
+    padding-left: 20px;
+    white-space: nowrap;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    }
+
+    .design{
+    width: 250px;
+    display: none;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 100px;
+    border-radius: 30px;
+    box-shadow: 5px 3px 5px rgb(190, 214, 187);
+    }
+
+    .menu{
+    display: inline-block;
+    position: absolute;
+    margin-left: -0.5vw;
+    margin-top: 27vw;
+    justify-items: center;
+    
+}
+
+    .menu button{
+    width: 50vw;
+    height: auto;
+    font-size: 3vw;
+    color: black;
+    font-family: roboto;
+    background-color: rgb(110, 236, 91);
+    font-weight: bold;
+    border-radius: 3vw;
+    padding: 2vw 2vw;
+    }
+
+    .menu a{
+    display: block;
+    width: 45vw;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    padding: 3vw 1.5vw;
+    background-color: rgb(217, 221, 216);
+    transition: 0.3s;
+    text-shadow: 1px 1px 3px rgba(37, 24, 24, 0.488);
+    border: 0.2vw solid black;
+    }
+
+    .menu .topicss{
+    display: none;
+    position: absolute;
+    box-shadow: 8px 8px 5px rgba(57, 59, 57, 0.545);
+    z-index: 2;
+    }
+
+    .menu button:hover {
+    cursor: pointer;
+    background-color: rgb(49, 243, 23);
+   }
+
+    .menu .topicss a:hover{
+    background-color: rgb(96, 249, 79);
+    }
+
+    .menu:hover .topicss{
+    display: block;
+    }
+
+    .topicss #f1{
+    border-top-left-radius: 5vw;
+    border-top-right-radius: 5vw;
+}
+
+    .topicss #f2{
+    border-bottom-left-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+}
+
+.contentpage1{
+    padding: 3vw 4vw;
+    float: left;
+    color: white;
+    margin-left: 5vw;
+    margin-top: 20vw;
+}
+
+.contentpage1 .cnpage1{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 3vw;
+}
+
+.contentpage1 .cn1page1{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 6vw;
+}
+
+.contentpage1 .cn1page2{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 15vw;
+}
+
+.contentpage1 .cnpagetech{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 15vw;
+}
+
+.contentpage1 .cn1pagefuture{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 5vw;
+}
+
+.contentpage1 .par{
+    font-size: 4vw;
+    float: left;
+    margin-left: 9vw;
+    white-space: nowrap;
+}
+
+.contentpage1 .about1{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    margin-left: 23vw;
+    white-space: nowrap;
+}
+
+.par-content{
+    width: 60vw;
+    height: 84vw;
+    padding-left: 8vw;
+    float: right;
+    margin-right: 10vw;
+    margin-top: 3vw;
+    color: rgb(250, 250, 250);
+    background-color:transparent;
+    overflow: auto;
+    border: 2px solid rgb(29, 28, 28);
+    box-shadow: 6px 4px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 3vw;
+    white-space: pre-line;
+    padding: 1vw 8vw;
+    word-spacing: normal;
+    font-family: 'Roboto mono';
+    backdrop-filter: blur(50px);
+    z-index: 1;
+    text-justify: distribute-all-lines;
+}
+
+.par-content::-webkit-scrollbar {
+    background: transparent; 
+}
+
+.par-container .text{
+    text-shadow: 3px 3px 8px rgb(213, 213, 213);
+}
+
+.par-container .ref{
+    text-decoration: none;
+    color: rgb(138, 131, 253);
+}
+
+.par-container a:visited{
+    color:rgb(103, 52, 233) ;
+}
+
+}
+
+@media(min-width: 425px) {
+    .main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+   }
+    
+    .icon{
+    position: relative;
+    right: 17vw;
+    top: 6vw;
+    
+ }
+
+    .logo{
+    color: rgb(110, 236, 91);
+    font-size: 7vw;
+    font-family: 'Times New Roman';
+    float: left;
+    }
+
+    .icons{
+    display: inline-block;
+    position: absolute;
+    margin-right: -60vw;
+    margin-top: 7.5vw;
+    }
+
+    .icons button{
+        width: 7vw;
+        height: 2vw;
+        font-size: 3vw;
+        font-family: 'Times New Roman';
+        padding: 0.3vw;
+        background: none;
+        background-color: transparent;
+        border-radius: 0.5vw;
+        font-weight: 300;
+        color: rgb(110, 236, 91);
+        border: none;
+
+    }
+
+    .icons a{
+        width: 13vw;
+        height: auto;
+        display: block;
+        text-decoration: none;
+        background-color: rgb(217, 221, 216);
+        text-align: center;
+        padding: 0.5vw;
+        font-size: 2vw;
+        font-weight: 600;
+    }
+
+    .icons .contact{
+        display: none;
+    }
+
+    .icons .contact a:hover{
+        background-color: rgb(96, 249, 79);
+    }
+
+    .icons:hover .contact{
+        display: block;
+    }
+
+    .icons button:hover{
+        cursor: pointer;
+    }
+
+
+    .contact #A1{
+        border-top-left-radius: 0.5vw;
+        border-top-right-radius: 0.5vw;
+    }
+    
+    .contact #A3{
+        border-bottom-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+    }
+
+    .icons a:hover{
+        background-color: rgb(110, 236, 91);
+    }
+
+    .icons2{
+        position: absolute;
+        margin-left: 40vw;
+        margin-top: 7.5vw;
+        float: right;
+        
+    }
+
+    .icons2 button{
+        width: 13vw;
+        height: auto;
+        background-color: transparent;
+        border: none;
+        color:rgb(110, 236, 91) ;
+        font-size: 3vw;
+        font-family: 'Times New Roman';
+        font-weight: 300;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+
+    .icons2 p{
+        text-decoration: none;
+        display: block;
+        width: 30vw;
+        background-color: aliceblue;
+        text-align: center;
+        padding: 1vw;
+        font-family: 'Times New Roman';
+    }
+
+    .icons2 a{
+        text-decoration: none;
+        font-size: 2vw;
+        font-family: 'Times New Roman';
+        color: black;
+    }
+
+    .icons2 .follows{
+        display: none;
+    }
+
+    .icons2:hover .follows{
+        display: block;
+        cursor: pointer;
+    }
+
+    .icons2 p:hover{
+        background-color: rgb(110, 236, 91) ;
+    }
+
+    .follows #A5{
+        border-top-left-radius: 0.5vw;
+        border-top-right-radius: 0.5vw;
+    }
+
+    .follows #A6{
+        border-bottom-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+    }
+
+       
+    .content{
+    float: left;
+    align-items: center;
+    margin-left: 6vw;
+    margin-top: 40vw;
+   }
+
+    .content .cn{
+    font-size: 12vw;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 8vw;
+    }
+
+    .content .cn2{
+    margin-top: 10px;
+    font-size: 11vw;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: -1vw;
+    }
+
+    .content p{
+    font-size: 5vw;
+    float: left;
+    padding-left: 20px;
+    white-space: nowrap;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    }
+
+    .design{
+    width: 250px;
+    display: none;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 100px;
+    border-radius: 30px;
+    box-shadow: 5px 3px 5px rgb(190, 214, 187);
+    }
+
+    .menu{
+    display: inline-block;
+    position: absolute;
+    margin-left: -2vw;
+    margin-top: 22vw;
+    justify-items: center;
+    
+}
+
+    .menu button{
+    width: 45vw;
+    height: auto;
+    font-size: 3vw;
+    color: black;
+    font-family: roboto;
+    background-color: rgb(110, 236, 91);
+    font-weight: bold;
+    border-radius: 3vw;
+    padding: 2vw 2vw;
+    }
+
+    .menu a{
+    display: block;
+    width: 40vw;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-size: 2vw;
+    text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    padding: 3vw 1.5vw;
+    background-color: rgb(217, 221, 216);
+    transition: 0.3s;
+    text-shadow: 1px 1px 3px rgba(37, 24, 24, 0.488);
+    border: 0.2vw solid black;
+    }
+
+    .menu .topicss{
+    display: none;
+    position: absolute;
+    box-shadow: 8px 8px 5px rgba(57, 59, 57, 0.545);
+    z-index: 2;
+    }
+
+    .menu button:hover {
+    cursor: pointer;
+    background-color: rgb(49, 243, 23);
+   }
+
+    .menu .topicss a:hover{
+    background-color: rgb(96, 249, 79);
+    }
+
+    .menu:hover .topicss{
+    display: block;
+    }
+
+    .topicss #f1{
+    border-top-left-radius: 5vw;
+    border-top-right-radius: 5vw;
+}
+
+    .topicss #f2{
+    border-bottom-left-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+}
+
+.contentpage1{
+    padding: 3vw 4vw;
+    float: left;
+    color: white;
+    margin-left: 5vw;
+    margin-top: 18vw;
+}
+
+.contentpage1 .cnpage1{
+    font-size: 7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 3vw;
+}
+
+.contentpage1 .cn1page1{
+    font-size: 7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 3vw;
+}
+
+.contentpage1 .par{
+    font-size: 4vw;
+    float: left;
+    margin-left: 3vw;
+    white-space: nowrap;
+}
+
+.contentpage1 .about1{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    margin-left: 23vw;
+    white-space: nowrap;
+}
+
+.par-content{
+    width: 60vw;
+    height: 67vw;
+    padding-left: 8vw;
+    float: right;
+    margin-right: 10vw;
+    margin-top: 3vw;
+    color: rgb(250, 250, 250);
+    background-color:transparent;
+    overflow: auto;
+    border: 2px solid rgb(29, 28, 28);
+    box-shadow: 6px 4px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 3vw;
+    white-space: pre-line;
+    padding: 1vw 8vw;
+    word-spacing: normal;
+    font-family: 'Roboto mono';
+    backdrop-filter: blur(50px);
+    z-index: 1;
+    text-justify: distribute-all-lines;
+}
+
+.par-content::-webkit-scrollbar {
+    background: transparent; 
+}
+
+.par-container .text{
+    text-shadow: 3px 3px 8px rgb(213, 213, 213);
+}
+
+.par-container .ref{
+    text-decoration: none;
+    color: rgb(138, 131, 253);
+}
+
+.par-container a:visited{
+    color:rgb(103, 52, 233) ;
+}
+
+}
+
+@media(min-width: 540px) {
+    .main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+   }
+    
+    .icon{
+    position: relative;
+    right: 17vw;
+    top: 6vw;
+    
+ }
+
+    .logo{
+    color: rgb(110, 236, 91);
+    font-size: 7vw;
+    font-family: 'Times New Roman';
+    float: left;
+    }
+
+    .icons{
+    display: inline-block;
+    position: absolute;
+    margin-right: -40vw;
+    margin-top: 7.3vw;
+    }
+
+    .icons button{
+        width: 7vw;
+        height: 2vw;
+        font-size: 3vw;
+        font-family: 'Times New Roman';
+        padding: 0.3vw;
+        background: none;
+        background-color: transparent;
+        border-radius: 0.5vw;
+        font-weight: 300;
+        color: rgb(110, 236, 91);
+        border: none;
+
+    }
+
+    .icons a{
+        width: 13vw;
+        height: auto;
+        display: block;
+        text-decoration: none;
+        background-color: rgb(217, 221, 216);
+        text-align: center;
+        padding: 0.5vw;
+        font-size: 2vw;
+        font-weight: 600;
+    }
+
+    .icons .contact{
+        display: none;
+    }
+
+    .icons .contact a:hover{
+        background-color: rgb(96, 249, 79);
+    }
+
+    .icons:hover .contact{
+        display: block;
+    }
+
+    .icons button:hover{
+        cursor: pointer;
+    }
+
+
+    .contact #A1{
+        border-top-left-radius: 0.5vw;
+        border-top-right-radius: 0.5vw;
+    }
+    
+    .contact #A3{
+        border-bottom-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+    }
+
+    .icons a:hover{
+        background-color: rgb(110, 236, 91);
+    }
+
+    .icons2{
+        position: absolute;
+        margin-left: 40vw;
+        margin-top: 7.5vw;
+        float: right;
+        
+    }
+
+    .icons2 button{
+        width: 13vw;
+        height: auto;
+        background-color: transparent;
+        border: none;
+        color:rgb(110, 236, 91) ;
+        font-size: 3vw;
+        font-family: 'Times New Roman';
+        font-weight: 300;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+
+    .icons2 p{
+        text-decoration: none;
+        display: block;
+        width: 30vw;
+        background-color: aliceblue;
+        text-align: center;
+        padding: 1vw;
+        font-family: 'Times New Roman';
+    }
+
+    .icons2 a{
+        text-decoration: none;
+        font-size: 2vw;
+        font-family: 'Times New Roman';
+        color: black;
+    }
+
+    .icons2 .follows{
+        display: none;
+    }
+
+    .icons2:hover .follows{
+        display: block;
+        cursor: pointer;
+    }
+
+    .icons2 p:hover{
+        background-color: rgb(110, 236, 91) ;
+    }
+
+    .follows #A5{
+        border-top-left-radius: 0.5vw;
+        border-top-right-radius: 0.5vw;
+    }
+
+    .follows #A6{
+        border-bottom-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+    }
+
+       
+    .content{
+    float: left;
+    align-items: center;
+    margin-left: 6vw;
+    margin-top: 40vw;
+   }
+
+    .content .cn{
+    font-size: 12vw;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 8vw;
+    }
+
+    .content .cn2{
+    margin-top: 10px;
+    font-size: 11vw;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: -1vw;
+    }
+
+    .content p{
+    font-size: 5vw;
+    float: left;
+    padding-left: 20px;
+    white-space: nowrap;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    }
+
+    .design{
+    width: 250px;
+    display: none;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 100px;
+    border-radius: 30px;
+    box-shadow: 5px 3px 5px rgb(190, 214, 187);
+    }
+
+    .menu{
+    display: inline-block;
+    position: absolute;
+    margin-left: -2vw;
+    margin-top: 22vw;
+    justify-items: center;
+    
+}
+
+    .menu button{
+    width: 45vw;
+    height: auto;
+    font-size: 3vw;
+    color: black;
+    font-family: roboto;
+    background-color: rgb(110, 236, 91);
+    font-weight: bold;
+    border-radius: 3vw;
+    padding: 2vw 2vw;
+    }
+
+    .menu a{
+    display: block;
+    width: 40vw;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-size: 2vw;
+    text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    padding: 3vw 1.5vw;
+    background-color: rgb(217, 221, 216);
+    transition: 0.3s;
+    text-shadow: 1px 1px 3px rgba(37, 24, 24, 0.488);
+    border: 0.2vw solid black;
+    }
+
+    .menu .topicss{
+    display: none;
+    position: absolute;
+    box-shadow: 8px 8px 5px rgba(57, 59, 57, 0.545);
+    z-index: 2;
+    }
+
+    .menu button:hover {
+    cursor: pointer;
+    background-color: rgb(49, 243, 23);
+   }
+
+    .menu .topicss a:hover{
+    background-color: rgb(96, 249, 79);
+    }
+
+    .menu:hover .topicss{
+    display: block;
+    }
+
+    .topicss #f1{
+    border-top-left-radius: 5vw;
+    border-top-right-radius: 5vw;
+}
+
+    .topicss #f2{
+    border-bottom-left-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+}
+
+.contentpage1{
+    padding: 3vw 4vw;
+    float: left;
+    color: white;
+    margin-left: 5vw;
+    margin-top: 18vw;
+}
+
+.contentpage1 .cnpage1{
+    font-size: 7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+}
+
+.contentpage1 .cn1page1{
+    font-size: 7vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+}
+
+.contentpage1 .par{
+    font-size: 4vw;
+    float: left;
+    
+    white-space: nowrap;
+}
+
+.contentpage1 .about1{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    margin-left: 23vw;
+    white-space: nowrap;
+}
+
+.par-content{
+    width: 60vw;
+    height: 67vw;
+    padding-left: 8vw;
+    float: right;
+    margin-right: 10vw;
+    margin-top: 3vw;
+    color: rgb(250, 250, 250);
+    background-color:transparent;
+    overflow: auto;
+    border: 2px solid rgb(29, 28, 28);
+    box-shadow: 6px 4px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 3vw;
+    white-space: pre-line;
+    padding: 1vw 8vw;
+    word-spacing: normal;
+    font-family: 'Roboto mono';
+    backdrop-filter: blur(50px);
+    z-index: 1;
+    text-justify: distribute-all-lines;
+}
+
+.par-content::-webkit-scrollbar {
+    background: transparent; 
+}
+
+.par-container .text{
+    text-shadow: 3px 3px 8px rgb(213, 213, 213);
+}
+
+.par-container .ref{
+    text-decoration: none;
+    color: rgb(138, 131, 253);
+}
+
+.par-container a:visited{
+    color:rgb(103, 52, 233) ;
+}
+
+}
+
+@media(min-width: 768px) and (max-width: 1000px) {
+    .main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+   }
+    
+    .icon{
+    position: relative;
+    right: 25vw;
+    top: 6vw;
+    
+ }
+
+    .logo{
+    color: rgb(110, 236, 91);
+    font-size: 4vw;
+    font-family: 'Times New Roman';
+    float: left;
+    }
+
+    .icons{
+    display: inline-block;
+    position: absolute;
+    margin-right: 5vw;
+    margin-top: 7.5vw;
+    }
+
+    .icons button{
+        width: 7vw;
+        height: 2vw;
+        font-size: 2vw;
+        font-family: 'Times New Roman';
+        padding: 0.3vw;
+        background: none;
+        background-color: transparent;
+        border-radius: 0.5vw;
+        font-weight: 300;
+        color: rgb(110, 236, 91);
+        border: none;
+
+    }
+
+    .icons a{
+        width: 6vw;
+        height: auto;
+        display: block;
+        text-decoration: none;
+        background-color: rgb(217, 221, 216);
+        text-align: center;
+        padding: 0.5vw;
+        font-size: 1vw;
+        font-weight: 600;
+    }
+
+    .icons .contact{
+        display: none;
+    }
+
+    .icons .contact a:hover{
+        background-color: rgb(96, 249, 79);
+    }
+
+    .icons:hover .contact{
+        display: block;
+    }
+
+    .icons button:hover{
+        cursor: pointer;
+    }
+
+
+    .contact #A1{
+        border-top-left-radius: 0.5vw;
+        border-top-right-radius: 0.5vw;
+    }
+    
+    .contact #A3{
+        border-bottom-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+    }
+
+    .icons a:hover{
+        background-color: rgb(110, 236, 91);
+    }
+
+    .icons2{
+        position: absolute;
+        margin-left: 6vw;
+        margin-top: 7.5vw;
+        float: right;
+        
+    }
+
+    .icons2 button{
+        width: 13vw;
+        height: auto;
+        background-color: transparent;
+        border: none;
+        color:rgb(110, 236, 91) ;
+        font-size: 2vw;
+        font-family: 'Times New Roman';
+        font-weight: 300;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+
+    .icons2 p{
+        text-decoration: none;
+        display: block;
+        width: 19vw;
+        background-color: aliceblue;
+        text-align: center;
+        padding: 1vw;
+        font-family: 'Times New Roman';
+    }
+
+    .icons2 a{
+        text-decoration: none;
+        font-size: 1vw;
+        font-family: 'Times New Roman';
+        color: black;
+    }
+
+    .icons2 .follows{
+        display: none;
+    }
+
+    .icons2:hover .follows{
+        display: block;
+        cursor: pointer;
+    }
+
+    .icons2 p:hover{
+        background-color: rgb(110, 236, 91) ;
+    }
+
+    .follows #A5{
+        border-top-left-radius: 0.5vw;
+        border-top-right-radius: 0.5vw;
+    }
+
+    .follows #A6{
+        border-bottom-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+    }
+
+       
+    .content{
+    float: left;
+    align-items: center;
+    margin-left: 17vw;
+    margin-top: 25vw;
+   }
+
+    .content .cn{
+    font-size: 8vw;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 8vw;
+    }
+
+    .content .cn2{
+    margin-top: 10px;
+    font-size: 8vw;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: -1vw;
+    }
+
+    .content p{
+    font-size: 3vw;
+    float: left;
+    padding-left: 20px;
+    white-space: nowrap;
+    color: white;
+    margin-left: 9vw;
+    margin-top: 10px;
+    }
+
+    .design{
+    width: 250px;
+    display: none;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 100px;
+    border-radius: 30px;
+    box-shadow: 5px 3px 5px rgb(190, 214, 187);
+    }
+
+    .menu{
+    display: inline-block;
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 7vw;
+    justify-items: center;
+    
+}
+
+    .menu button{
+    width: 25vw;
+    height: 4vw;
+    font-size: 1.5vw;
+    color: black;
+    font-family: roboto;
+    background-color: rgb(110, 236, 91);
+    font-weight: bold;
+    border-radius: 2vw;
+    
+    }
+
+    .menu a{
+    display: block;
+    width: 24vw;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    padding: 1vw 0.5vw;
+    background-color: rgb(217, 221, 216);
+    transition: 0.3s;
+    text-shadow: 1px 1px 3px rgba(37, 24, 24, 0.488);
+    border: 0.2vw solid black;
+    }
+
+    .menu .topicss{
+    display: none;
+    position: absolute;
+    box-shadow: 8px 8px 5px rgba(57, 59, 57, 0.545);
+    z-index: 2;
+    }
+
+    .menu button:hover {
+    cursor: pointer;
+    background-color: rgb(49, 243, 23);
+   }
+
+    .menu .topicss a:hover{
+    background-color: rgb(96, 249, 79);
+    }
+
+    .menu:hover .topicss{
+    display: block;
+    }
+
+    .topicss #f1{
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+}
+
+    .topicss #f2{
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+}
+
+.contentpage1{
+    padding: 3vw 4vw;
+    float: left;
+    color: white;
+    margin-left: 5vw;
+    margin-top: 5vw;
+}
+
+.contentpage1 .cnpage1{
+    font-size: 3vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 3vw;
+}
+
+.contentpage1 .cn1page1{
+    font-size: 3vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 3vw;
+}
+
+.contentpage1 .par{
+    font-size: 2vw;
+    float: left;
+    margin-left: 3vw;
+    white-space: nowrap;
+}
+
+.contentpage1 .about1{
+    font-size: 6.7vw;
+    color: rgb(110, 236, 91);
+    margin-left: 27vw;
+    white-space: nowrap;
+}
+
+.ImageContent img{
+    width: 30vw;
+    height: auto;
+    position:absolute;
+    left:10vw;
+    top: 30vw;
+    border-radius: 3vw;
+    box-shadow: 6px 4px 10px rgb(0, 0, 0);
+    display: none;
+}
+
+.par-content{
+    width: 60vw;
+    height: 40vw;
+    padding-left: 8vw;
+    float: right;
+    margin-right: 10vw;
+    margin-top: 5vw;
+    color: rgb(250, 250, 250);
+    background-color:transparent;
+    overflow: auto;
+    border: 2px solid rgb(29, 28, 28);
+    box-shadow: 6px 4px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 2vw;
+    white-space: pre-line;
+    padding: 1vw 8vw;
+    word-spacing: normal;
+    font-family: 'Roboto mono';
+    backdrop-filter: blur(50px);
+    z-index: 1;
+    text-justify: distribute-all-lines;
+}
+
+.par-content::-webkit-scrollbar {
+    background: transparent; 
+}
+
+.par-container .text{
+    text-shadow: 3px 3px 8px rgb(213, 213, 213);
+}
+
+.par-container .ref{
+    text-decoration: none;
+    color: rgb(138, 131, 253);
+}
+
+.par-container a:visited{
+    color:rgb(103, 52, 233) ;
+}
+
+}
+
+@media (min-width: 1024px) and (max-width:1300px){
+    .main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+   }
+    
+    .icon{
+    position: relative;
+    right: 35vw;
+    top: 4vw;
+    
+ }
+
+    .logo{
+    color: rgb(110, 236, 91);
+    font-size: 3vw;
+    font-family: 'Times New Roman';
+    float: left;
+    }
+
+    .icons{
+    display: inline-block;
+    position: absolute;
+    margin-right: 33vw;
+    margin-top: 5vw;
+    }
+
+    .icons button{
+        width: 7vw;
+        height: 2vw;
+        font-size: 1.2vw;
+        font-family: 'Times New Roman';
+        padding: 0.3vw;
+        background: none;
+        background-color: transparent;
+        border-radius: 0.5vw;
+        font-weight: 300;
+        color: rgb(110, 236, 91);
+        border: none;
+
+    }
+
+    .icons a{
+        width: 6vw;
+        height: auto;
+        display: block;
+        text-decoration: none;
+        background-color: rgb(217, 221, 216);
+        text-align: center;
+        padding: 0.5vw;
+        font-size: 0.7vw;
+        font-weight: 600;
+    }
+
+    .icons .contact{
+        display: none;
+    }
+
+    .icons .contact a:hover{
+        background-color: rgb(96, 249, 79);
+    }
+
+    .icons:hover .contact{
+        display: block;
+    }
+
+    .icons button:hover{
+        cursor: pointer;
+    }
+
+
+    .contact #A1{
+        border-top-left-radius: 0.5vw;
+        border-top-right-radius: 0.5vw;
+    }
+    
+    .contact #A3{
+        border-bottom-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+    }
+
+    .icons a:hover{
+        background-color: rgb(110, 236, 91);
+    }
+
+    .icons2{
+        position: absolute;
+        margin-left: -10vw;
+        margin-top: 5vw;
+        float: right;
+        
+    }
+
+    .icons2 button{
+        width: 13vw;
+        height: auto;
+        background-color: transparent;
+        border: none;
+        color:rgb(110, 236, 91) ;
+        font-size: 1.2vw;
+        font-family: 'Times New Roman';
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    .icons2 p{
+        text-decoration: none;
+        display: block;
+        width: 15vw;
+        height: 5vw;
+        background-color: aliceblue;
+        text-align: center;
+        padding: 0.2vw 0.7vw;
+        font-family: 'Times New Roman';
+        font-size: 1vw;
+    }
+
+    .icons2 a{
+        text-decoration: none;
+        font-size: 0.9vw;
+        font-family: 'Times New Roman';
+        color: black;
+    }
+
+    .icons2 .follows{
+        display: none;
+    }
+
+    .icons2:hover .follows{
+        display: block;
+        cursor: pointer;
+    }
+
+    .icons2 p:hover{
+        background-color: rgb(110, 236, 91) ;
+    }
+    
+
+    .follows #A5{
+        border-top-left-radius: 0.5vw;
+        border-top-right-radius: 0.5vw;
+    }
+
+    .follows #A6{
+        border-bottom-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+    }
+    
+    .follows i{
+        margin-top: 2vw;
+    }
+    
+
+       
+    .content{
+    float: left;
+    margin-left: 20vw;
+    margin-top: 15vw;
+   }
+
+    .content .cn{
+    font-size: 8vw;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 8vw;
+    }
+
+    .content .cn2{
+    margin-top: 10px;
+    font-size: 8vw;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: -1vw;
+    }
+
+    .content p{
+    font-size: 3vw;
+    float: left;
+    padding-left: 20px;
+    white-space: nowrap;
+    color: white;
+    margin-left: 9vw;
+    margin-top: 10px;
+    }
+
+    .design{
+    width: 250px;
+    display: none;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 100px;
+    border-radius: 30px;
+    box-shadow: 5px 3px 5px rgb(190, 214, 187);
+    }
+
+    .menu{
+    display: inline-block;
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 5vw;
+    justify-items: center;
+    
+}
+
+    .menu button{
+    width: 20vw;
+    height: 4vw;
+    font-size: 1.5vw;
+    color: black;
+    font-family: roboto;
+    background-color: rgb(110, 236, 91);
+    font-weight: bold;
+    border-radius: 2vw;
+    
+    }
+
+    .menu a{
+    display: block;
+    width: 18vw;
+    height: auto;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-size: 1vw;
+    text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    padding: 1vw 0.5vw;
+    background-color: rgb(217, 221, 216);
+    transition: 0.3s;
+    text-shadow: 1px 1px 3px rgba(37, 24, 24, 0.488);
+    border: 0.2vw solid black;
+    }
+
+    .menu .topicss{
+    display: none;
+    position: absolute;
+    box-shadow: 8px 8px 5px rgba(57, 59, 57, 0.545);
+    z-index: 2;
+    }
+
+    .menu button:hover {
+    cursor: pointer;
+    background-color: rgb(49, 243, 23);
+   }
+
+    .menu .topicss a:hover{
+    background-color: rgb(96, 249, 79);
+    }
+
+    .menu:hover .topicss{
+    display: block;
+    }
+
+    .topicss #f1{
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+}
+
+    .topicss #f2{
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+}
+
+.contentpage1{
+    padding: 3vw 4vw;
+    float: left;
+    color: white;
+    margin-left: 2vw;
+    margin-top: 7vw;
+}
+
+.contentpage1 .cnpage1{
+    font-size: 3vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+}
+
+.contentpage1 .cn1page1{
+    font-size: 3vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 3vw;
+}
+
+.contentpage1 .cn1page2{
+    font-size: 3vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 5vw;
+}
+
+.contentpage1 .par{
+    font-size: 2vw;
+    float: left;
+    margin-left: 3vw;
+    white-space: nowrap;
+}
+
+.contentpage1 .about1{
+    font-size: 6vw;
+    color: rgb(110, 236, 91);
+    margin-left: 6vw;
+    white-space: nowrap;
+}
+
+.ImageContent img{
+    width: 30vw;
+    height: auto;
+    position:absolute;
+    left:10vw;
+    top: 33vw;
+    border-radius: 3vw;
+    box-shadow: 6px 4px 10px rgb(0, 0, 0);
+    
+}
+.par-content{
+    width: 40vw;
+    height: 40vw;
+    padding-left: 8vw;
+    float: right;
+    margin-right: 10vw;
+    margin-top: 5vw;
+    color: rgb(250, 250, 250);
+    background-color:transparent;
+    overflow: auto;
+    border: 2px solid rgb(29, 28, 28);
+    box-shadow: 6px 4px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 1.5vw;
+    white-space: pre-line;
+    padding: 1vw 2vw;
+    word-spacing: normal;
+    font-family: 'Roboto mono';
+    backdrop-filter: blur(50px);
+    z-index: 1;
+    text-justify: distribute-all-lines;
+}
+
+.par-content::-webkit-scrollbar {
+    background: transparent; 
+}
+
+.par-container .text{
+    text-shadow: 3px 3px 8px rgb(213, 213, 213);
+}
+
+.par-container .ref{
+    text-decoration: none;
+    color: rgb(138, 131, 253);
+}
+
+.par-container a:visited{
+    color:rgb(103, 52, 233) ;
+}
+
+}
+
+@media(min-width: 1440px){
+    .main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+   }
+    
+    .icon{
+    position: relative;
+    right: 37vw;
+    top: 2vw;
+    
+ }
+
+    .logo{
+    color: rgb(110, 236, 91);
+    font-size: 2.3vw;
+    font-family: 'Times New Roman';
+    float: left;
+    }
+
+    .icons{
+    display: inline-block;
+    position: absolute;
+    margin-right: 50vw;
+    margin-top: 2.5vw;
+    }
+
+    .icons button{
+        width: 7vw;
+        height: 2vw;
+        font-size: 1.2vw;
+        font-family: 'Times New Roman';
+        padding: 0.3vw;
+        background: none;
+        background-color: transparent;
+        border-radius: 0.5vw;
+        font-weight: 300;
+        color: rgb(110, 236, 91);
+        border: none;
+
+    }
+
+    .icons a{
+        width: 6vw;
+        height: auto;
+        display: block;
+        text-decoration: none;
+        background-color: rgb(217, 221, 216);
+        text-align: center;
+        padding: 0.5vw;
+        font-size: 0.7vw;
+        font-weight: 600;
+    }
+
+    .icons .contact{
+        display: none;
+    }
+
+    .icons .contact a:hover{
+        background-color: rgb(96, 249, 79);
+    }
+
+    .icons:hover .contact{
+        display: block;
+    }
+
+    .icons button:hover{
+        cursor: pointer;
+    }
+
+
+    .contact #A1{
+        border-top-left-radius: 0.5vw;
+        border-top-right-radius: 0.5vw;
+    }
+    
+    .contact #A3{
+        border-bottom-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+    }
+
+    .icons a:hover{
+        background-color: rgb(110, 236, 91);
+    }
+
+    .icons2{
+        position: absolute;
+        margin-left: -16vw;
+        margin-top: 2.7vw;
+        float: right;
+        
+    }
+
+    .icons2 button{
+        width: 13vw;
+        height: auto;
+        background-color: transparent;
+        border: none;
+        color:rgb(110, 236, 91) ;
+        font-size: 1.2vw;
+        font-family: 'Times New Roman';
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    .icons2 p{
+        text-decoration: none;
+        display: block;
+        width: 11vw;
+        background-color: aliceblue;
+        text-align: center;
+        padding: 1vw;
+        font-family: 'Times New Roman';
+    }
+
+    .icons2 a{
+        text-decoration: none;
+        font-size: 0.8vw;
+        font-family: 'Times New Roman';
+        color: black;
+    }
+
+    .icons2 .follows{
+        display: none;
+    }
+
+    .icons2:hover .follows{
+        display: block;
+        cursor: pointer;
+    }
+
+    .icons2 p:hover{
+        background-color: rgb(110, 236, 91) ;
+    }
+
+    .follows #A5{
+        border-top-left-radius: 0.5vw;
+        border-top-right-radius: 0.5vw;
+    }
+
+    .follows #A6{
+        border-bottom-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+    }
+
+       
+    .content{
+    float: left;
+    margin-left: 25vw;
+    margin-top: 10vw;
+   }
+
+    .content .cn{
+    font-size: 6vw;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 8vw;
+    }
+
+    .content .cn2{
+    margin-top: 10px;
+    font-size: 6vw;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 1vw;
+    }
+
+    .content p{
+    font-size: 2vw;
+    float: left;
+    padding-left: 20px;
+    white-space: nowrap;
+    color: white;
+    margin-left: 10vw;
+    margin-top: 10px;
+    }
+
+    .design{
+    width: 250px;
+    display: none;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 100px;
+    border-radius: 30px;
+    box-shadow: 5px 3px 5px rgb(190, 214, 187);
+    }
+
+    .menu{
+    display: inline-block;
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 3vw;
+    justify-items: center; 
+    
+}
+
+    .menu button{
+    width: 18vw;
+    height: 2vw;
+    font-size: 1vw;
+    color: black;
+    font-family: roboto;
+    background-color: rgb(110, 236, 91);
+    font-weight: bold;
+    border-radius: 2vw;
+    padding: 1.5vw 2vw;
+    
+    
+    }
+
+    .menu a{
+    display: block;
+    width: 17vw;
+    height: auto;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-size: 0.8vw;
+    text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    padding: 1vw 0.6vw;
+    background-color: rgb(217, 221, 216);
+    transition: 0.3s;
+    text-shadow: 1px 1px 3px rgba(37, 24, 24, 0.488);
+    border: 0.2vw solid black;
+    }
+
+    .menu .topicss{
+    display: none;
+    position: absolute;
+    box-shadow: 8px 8px 5px rgba(57, 59, 57, 0.545);
+    z-index: 2;
+    }
+
+    .menu button:hover {
+    cursor: pointer;
+    background-color: rgb(49, 243, 23);
+   }
+
+    .menu .topicss a:hover{
+    background-color: rgb(96, 249, 79);
+    }
+
+    .menu:hover .topicss{
+    display: block;
+    }
+
+    .topicss #f1{
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+}
+
+    .topicss #f2{
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+
+.contentpage1{
+    padding: 3vw 4vw;
+    float: left;
+    color: white;
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+
+.contentpage1 .cnpage1{
+    font-size: 3vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+
+}
+
+.contentpage1 .cn1page1{
+    font-size: 3vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 3vw;
+}
+
+.contentpage1 .cn1page2{
+    font-size: 3vw;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    margin-left: 4.5vw;
+}
+
+.contentpage1 .par{
+    font-size: 1.5vw;
+    float: left;
+    white-space: nowrap;
+    margin-left: 3vw;
+}
+
+.contentpage1 .about1{
+    font-size: 5vw;
+    color: rgb(110, 236, 91);
+    margin-left: 8vw;
+    white-space: nowrap;
+}
+
+.ImageContent img{
+    width: 30vw;
+    height: auto;
+    position:absolute;
+    left:10vw;
+    top: 20vw;
+    border-radius: 3vw;
+    box-shadow: 6px 4px 10px rgb(0, 0, 0);
+    
+}
+
+.ImageContent #humanflo{
+    width: 30vw;
+    height: auto;
+    position:absolute;
+    left:10vw;
+    top: 23vw;
+    border-radius: 3vw;
+    box-shadow: 6px 4px 10px rgb(0, 0, 0);
+    
+}
+
+.par-content{
+    width: 40vw;
+    height: 31vw;
+    padding-left: 8vw;
+    float: right;
+    margin-right: 8vw;
+    margin-top: 3vw;
+    color: rgb(250, 250, 250);
+    background-color:transparent;
+    overflow: auto;
+    border: 2px solid rgb(29, 28, 28);
+    box-shadow: 6px 4px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 1.5vw;
+    white-space: pre-line;
+    padding: 1vw 2vw;
+    word-spacing: normal;
+    font-family: 'Roboto mono';
+    backdrop-filter: blur(50px);
+    z-index: 1;
+    text-justify: distribute-all-lines;
+}
+
+.par-content::-webkit-scrollbar {
+    background: transparent; 
+}
+
+.par-container .text{
+    text-shadow: 3px 3px 8px rgb(213, 213, 213);
+}
+
+.par-container .ref{
+    text-decoration: none;
+    color: rgb(138, 131, 253);
+}
+
+.par-container a:visited{
+    color:rgb(103, 52, 233) ;
+} 
+
+
+
+}
+
+
